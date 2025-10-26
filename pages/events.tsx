@@ -53,7 +53,7 @@ export default function Events() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           {events.map((event, index) => (
-            <div key={index} className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
+            <div key={index} className="bg-white border border-gray-200 rounded-lg p-6">
               <div className="mb-4">
                 <h3 className="text-2xl font-bold text-blue-600 mb-2">{event.name}</h3>
                 <div className="space-y-1 text-gray-600">
@@ -81,14 +81,14 @@ export default function Events() {
           ))}
         </div>
 
-        <div className="bg-gray-50 border border-gray-200 p-8 rounded-lg text-center hover:shadow-md transition-shadow">
+        <div className="bg-gray-50 border border-gray-200 p-8 rounded-lg text-center">
           <h3 className="text-3xl font-bold mb-4 text-black">Want to Host a Workshop?</h3>
           <p className="text-lg text-gray-600 mb-6 font-medium">
             Bring Making Cents of Math to your school! Contact us to schedule a free workshop.
           </p>
           <a 
             href="/get-involved"
-            className="inline-block font-medium px-8 py-3 bg-blue-600 text-white text-lg rounded-lg hover:bg-blue-700 transition-colors shadow-md hover:shadow-lg"
+            className="inline-block font-medium px-8 py-3 bg-blue-600 text-white text-lg rounded-lg hover:bg-blue-700 transition-colors"
           >
             Get in Touch
           </a>

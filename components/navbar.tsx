@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import Link from 'next/link';
+import { ThemeToggle } from './theme-toggle';
 
 interface NavbarProps {
   showAnimation: boolean;
@@ -25,47 +26,54 @@ const Navbar: React.FC<NavbarProps> = ({ showAnimation }) => {
 
   return (
     <header className="relative bg-background border-b border-border z-50">
-      <nav className="max-w-6xl mx-auto flex items-center justify-between px-4 py-4">
-        {/* Logo */}
-        <Link href="/" className="flex items-center gap-2">
-          <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-            <span className="text-primary-foreground font-bold">MCM</span>
+      <nav className="w-full flex items-center justify-center px-6 py-6">
+        <div className="flex items-center gap-8">
+          {/* Logo */}
+          <Link href="/" className="flex items-center group">
+            <img
+              src="/logo.jpg"
+              alt="MCM Logo"
+              className="h-10 w-auto object-contain transition-transform duration-300 group-hover:rotate-360"
+            />
+          </Link>
+
+          {/* Desktop Menu */}
+          <div className="hidden md:flex items-center gap-2">
+            {navItems.map((item, idx) => (
+              <Link
+                key={idx}
+                href={item.href}
+                className="px-4 py-2 text-foreground hover:bg-accent hover:text-accent-foreground rounded-md transition-all duration-200 font-bold hover:scale-105"
+              >
+                {item.label}
+              </Link>
+            ))}
+            <ThemeToggle />
           </div>
-          <span className="font-bold text-lg hidden sm:inline">Making Cents of Math</span>
-        </Link>
 
-        {/* Desktop Menu */}
-        <div className="hidden md:flex items-center gap-1">
-          {navItems.map((item, idx) => (
-            <Link
-              key={idx}
-              href={item.href}
-              className="px-3 py-2 text-foreground hover:bg-accent rounded-md transition-colors font-medium"
+          {/* Mobile Menu Button */}
+          <div className="md:hidden flex items-center gap-2 ml-auto">
+            <ThemeToggle />
+            <button
+              onClick={toggleMenu}
+              className="p-2 hover:bg-accent rounded-md transition-colors"
             >
-              {item.label}
-            </Link>
-          ))}
+              {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
         </div>
-
-        {/* Mobile Menu Button */}
-        <button
-          onClick={toggleMenu}
-          className="md:hidden p-2 hover:bg-accent rounded-md transition-colors"
-        >
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
       </nav>
 
       {/* Mobile Dropdown Menu */}
       {isMenuOpen && (
         <div className="md:hidden border-t border-border bg-background">
-          <div className="flex flex-col p-4 space-y-2 max-w-6xl mx-auto">
+          <div className="flex flex-col p-6 space-y-4 w-full">
             {navItems.map((item, idx) => (
               <Link
                 key={idx}
                 href={item.href}
                 onClick={() => setIsMenuOpen(false)}
-                className="px-3 py-2 text-foreground hover:bg-accent rounded-md transition-colors font-medium"
+                className="px-4 py-3 text-foreground hover:bg-accent hover:text-accent-foreground rounded-md transition-all duration-200 font-bold hover:translate-x-1"
               >
                 {item.label}
               </Link>

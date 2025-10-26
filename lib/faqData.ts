@@ -3,22 +3,22 @@ export const faqData = {
     {
       question: "What is Making Cents of Math (MCM)?",
       answer:
-        "Making Cents of Math (MCM) is a student-led initiative that provides free financial literacy workshops to middle school students (grades 6-9). We connect classroom math concepts to real-world financial decisions like managing money, understanding interest, and making smart financial choices.",
+        "Making Cents of Math (MCM) is a <strong>student-led initiative</strong> that provides <strong>free financial literacy workshops</strong> to <strong>middle school students (grades 6-9)</strong>. We connect classroom math concepts to real-world financial decisions like managing money, understanding interest, and making smart financial choices.",
     },
     {
       question: "Where and how are MCM workshops conducted?",
       answer:
-        "Our workshops are conducted directly at middle schools across our community. We bring all materials and facilitators to your school, making it easy for students to participate. Workshops are typically 2 hours long and include interactive activities, games, and real-world examples. Contact us through our <a class='hyperlink' href='/get-involved' target='_blank'>Get Involved</a> page to schedule a workshop for your school.",
+        "Our workshops are conducted directly at middle schools across our community. We bring all materials and facilitators to your school, making it easy for students to participate. Workshops are typically <strong>2 hours long</strong> and include <strong>interactive activities, games, and real-world examples</strong>. Contact us through our <a class='hyperlink' href='/get-involved' target='_blank'>Get Involved</a> page to schedule a workshop for your school.",
     },
     {
       question: "What topics do you cover in your workshops?",
       answer:
-        "We cover essential financial literacy topics including bank accounts, interest and credit, budgeting basics, debt management, investments, and financial safety. All topics are taught through hands-on activities that connect classroom math to real financial decisions. Check out our <a class='hyperlink' href='/workshops' target='_blank'>Workshops</a> page for a detailed curriculum overview.",
+        "We cover <strong>essential financial literacy topics</strong> including bank accounts, interest and credit, budgeting basics, debt management, investments, and financial safety. All topics are taught through <strong>hands-on activities</strong> that connect classroom math to real financial decisions. Check out our <a class='hyperlink' href='/workshops' target='_blank'>Workshops</a> page for a detailed curriculum overview.",
     },
     {
       question: "How can schools get involved with MCM?",
       answer:
-        "Schools can book free workshops by contacting us through our <a class='hyperlink' href='/get-involved' target='_blank'>Get Involved</a> page. We're always looking to partner with more schools to bring financial literacy education to more students. All workshops are completely free for schools and students.",
+        "Schools can book <strong>free workshops</strong> by contacting us through our <a class='hyperlink' href='/get-involved' target='_blank'>Get Involved</a> page. We're always looking to partner with more schools to bring financial literacy education to more students. All workshops are <strong>completely free</strong> for schools and students.",
     },
     {
       question: "Is there a cost to attend MCM workshops?",
@@ -27,7 +27,7 @@ export const faqData = {
     },
     {
       question: "What age group are your workshops designed for?",
-      answer: "Our workshops are specifically designed for middle school students in grades 6-9 (typically ages 12-14). This is the perfect time to learn about financial literacy before students start making independent financial decisions. We focus on building foundational skills that will serve students throughout their lives.",
+      answer: "Our workshops are specifically designed for <strong>middle school students in grades 6-9 (typically ages 12-14)</strong>. This is the perfect time to learn about financial literacy before students start making independent financial decisions. We focus on building foundational skills that will serve students throughout their lives.",
     },
     {
       question: "How can I stay updated on MCM workshops and news?",

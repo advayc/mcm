@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://futuremd.tech/sitemap.xml

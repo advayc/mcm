@@ -21,7 +21,6 @@ class MyDocument extends Document {
           <meta property="og:type" content="website" />
           <meta property="og:title" content="Making Cents of Math" />
           <meta property="og:description" content="Inspiring passion and understanding in youth through interactive workshops connecting classroom math with financial literacy." />
-          <meta property="og:url" content="https://makingcentsofmath.org" />
           <meta property="og:image" content="/meta.png" />
           <meta property="og:site_name" content="Making Cents of Math" />
           <meta property="og:locale" content="en_US" />
