@@ -86,25 +86,6 @@ export default function About() {
         </div>
       </div>
 
-      <div className="w-full py-16 md:py-24">
-        <div className="max-w-5xl mx-auto px-4 md:px-8">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-            <div className="md:flex-1 flex flex-col items-center md:items-start justify-center text-center md:text-left">
-              <h2 className="text-4xl sm:text-5xl md:text-5xl font-bold text-foreground">Have More <br/>Questions?</h2>
-              <p className="text-lg text-muted-foreground font-medium leading-relaxed mt-4">
-                Click the button below to visit our FAQ!
-              </p>
-              <Link href='/faq'>
-                <button className="font-medium mt-6 px-8 py-3 bg-blue-600 text-white text-lg rounded-lg hover:bg-blue-700 transition-colors shadow-md hover:shadow-lg">Learn More</button>
-              </Link>
-            </div>
-            <div className="md:w-1/3 w-2/3 sm:w-1/2">
-              <img src='/faq.png' alt="FAQ" className="w-full h-auto" />
-            </div>
-          </div>
-        </div>
-      </div>
-
       <Footer />
     </main>
   );
