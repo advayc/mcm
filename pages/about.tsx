@@ -13,7 +13,7 @@ export default function About() {
       <Navbar showAnimation={false} />
       <header className="pt-4 px-4 w-full">
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mt-8 text-center text-foreground">
-          About <span className="text-blue-600">MCM</span>
+          About <span className="text-primary">MCM</span>
         </h1>
       </header>
 
@@ -36,17 +36,17 @@ export default function About() {
 
       <div id="our-mission" className="w-full bg-secondary py-16 md:py-24">
         <div className="max-w-5xl mx-auto px-4 md:px-8">
-          <h2 className="text-4xl sm:text-5xl md:text-5xl font-bold text-foreground mb-8 text-center md:text-left">Our <span className="text-blue-600">Mission</span></h2>
+          <h2 className="text-4xl sm:text-5xl md:text-5xl font-bold text-foreground mb-8 text-center md:text-left">Our <span className="text-primary">Mission</span></h2>
           <p className="text-lg md:text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto md:mx-0 mb-8">
             Kids find math boring, which causes them to not realize how valuable math can be when applied in a financial context.
           </p>
           
-          <h2 className="text-4xl sm:text-5xl md:text-5xl font-bold text-foreground mb-8 text-center md:text-left mt-12">The <span className="text-blue-600">Problem</span></h2>
+          <h2 className="text-4xl sm:text-5xl md:text-5xl font-bold text-foreground mb-8 text-center md:text-left mt-12">The <span className="text-primary">Problem</span></h2>
           <p className="text-lg md:text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto md:mx-0 mb-8">
             Many students struggle to see the real-world value of math. Abstract concepts like percentages and exponents feel disconnected from their daily lives, making math seem boring and irrelevant. This disconnect leaves them unprepared for important financial decisions later in life.
           </p>
           
-          <h2 className="text-4xl sm:text-5xl md:text-5xl font-bold text-foreground mb-8 text-center md:text-left mt-12">Our <span className="text-blue-600">Solution</span></h2>
+          <h2 className="text-4xl sm:text-5xl md:text-5xl font-bold text-foreground mb-8 text-center md:text-left mt-12">Our <span className="text-primary">Solution</span></h2>
           <p className="text-lg md:text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto md:mx-0">
             <span className="font-bold">Financial math-based workshops</span> for students in <span className="font-bold">elementary and middle school</span>. We bring <span className="font-bold">interactive, hands-on learning</span> directly to schools, showing students how classroom math applies to real-world financial decisions.
           </p>
@@ -61,7 +61,7 @@ export default function About() {
           </div>
           <div className="flex justify-center">
             <Link href='/team'>
-              <button className="font-medium px-8 py-3 bg-blue-600 text-white text-lg rounded-lg hover:bg-blue-700 transition-colors shadow-md hover:shadow-lg">Meet Our Team</button>
+              <button className="font-medium px-8 py-3 bg-primary text-primary-foreground text-lg rounded-lg hover:bg-primary/90 transition-colors shadow-md hover:shadow-lg">Meet Our Team</button>
             </Link>
           </div>
         </div>
@@ -71,12 +71,12 @@ export default function About() {
         <div className="max-w-5xl mx-auto px-4 md:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="md:flex-1 flex flex-col items-center md:items-start justify-center text-center md:text-left">
-              <h2 className="text-4xl sm:text-5xl md:text-5xl font-bold text-foreground">Our <br className="hidden md:block" /> <span className="text-blue-600">Workshops</span></h2>
+              <h2 className="text-4xl sm:text-5xl md:text-5xl font-bold text-foreground">Our <br className="hidden md:block" /> <span className="text-primary">Workshops</span></h2>
               <p className="text-lg text-muted-foreground font-medium leading-relaxed mt-4">
                 Click the button below to learn more about our workshops!
               </p>
               <Link href='/workshops'>
-                <button className="font-medium mt-6 px-8 py-3 bg-blue-600 text-white text-lg rounded-lg hover:bg-blue-700 transition-colors shadow-md hover:shadow-lg">Learn More</button>
+                <button className="font-medium mt-6 px-8 py-3 bg-primary text-primary-foreground text-lg rounded-lg hover:bg-primary/90 transition-colors shadow-md hover:shadow-lg">Learn More</button>
               </Link>
             </div>
             <div className="md:w-1/3 w-2/3 sm:w-1/2">

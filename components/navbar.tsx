@@ -43,7 +43,7 @@ const Navbar: React.FC<NavbarProps> = ({ showAnimation }) => {
               <Link
                 key={idx}
                 href={item.href}
-                className="px-4 py-2 text-foreground hover:bg-accent hover:text-accent-foreground rounded-md transition-all duration-200 font-bold hover:scale-105"
+                className="px-4 py-2 text-foreground rounded-md transition-all duration-200 font-bold hover:scale-105"
               >
                 {item.label}
               </Link>

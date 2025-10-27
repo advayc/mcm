@@ -22,7 +22,7 @@ export default function Team() {
       </div>
 
       <p className="text-center mb-8 text-lg text-muted-foreground font-medium">
-        Interested in joining our team? <Link href='/get-involved' className="text-blue-600 hover:text-blue-700 transition font-extrabold">Click Here!</Link>
+        Interested in joining our team? <Link href='/get-involved' className="text-primary hover:text-primary/80 transition font-extrabold">Click Here!</Link>
       </p>
 
       <Footer />

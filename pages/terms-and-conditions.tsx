@@ -13,7 +13,7 @@ const Terms: React.FC = () => {
 
       <section className="flex flex-col items-center">
         <div className="w-full md:w-5/6 border border-gray-200 rounded-lg p-8 mt-12 max-w-4xl mx-auto mb-16">
-          <h2 className="text-4xl font-bold text-black mb-4">Our <span className="text-blue-600">Terms and Conditions</span></h2>
+          <h2 className="text-4xl font-bold text-foreground mb-4">Our <span className="text-primary">Terms and Conditions</span></h2>
           <p className="text-lg text-gray-600 font-medium leading-relaxed">
             At Making Cents of Math, we are committed to providing a transparent and secure experience for our users. These terms and conditions outline the rules and regulations for the use of our website and services. By accessing our website, you agree to comply with these terms. We reserve the right to update or modify these terms at any time without prior notice. It is your responsibility to review the terms periodically for any changes.
           </p>
